@@ -60,29 +60,28 @@ A robust RESTful API for a real estate marketplace built with Node.js, Express, 
 
       Authentication:
 
-      POST /api/login – Log in (or auto-register)
-      POST /api/forgot-password – Request a password reset email
-      GET /api/current-user – Get current user details
-      PUT /api/update-password – Update password
-      PUT /api/update-username – Update username
-      PUT /api/update-profile – Update user profile
-
+      1. POST /api/login – Log in (or auto-register)
+      2. POST /api/forgot-password – Request a password reset email
+      3. GET /api/current-user – Get current user details
+      4. PUT /api/update-password – Update password
+      5. PUT /api/update-username – Update username
+      6. PUT /api/update-profile – Update user profile
 
 
       Ads Management:
       
-      POST /api/upload-image – Upload images (using multer)
-      DELETE /api/remove-image – Remove image from AWS S3
-      POST /api/create-ad – Create a new ad
-      GET /api/ad/:slug – Read a single ad
-      GET /api/ads-for-sell/:page – List properties for sale (paginated)
-      GET /api/ads-for-rent/:page – List properties for rent (paginated)
-      PUT /api/update-ad/:slug – Update an ad
-      DELETE /api/delete-ad/:slug – Delete an ad
-      GET /api/user-ads/:page – Get ads posted by the current user
-      PUT /api/update-ad-status/:slug – Update ad status
-      POST /api/contact-agent – Contact the agent for an ad
-      PUT /api/toggle-wish-list/:adId – Toggle wishlist for an ad
-      GET /api/wishlist/:page – Get wishlist ads (paginated)
-      POST /api/search-ads – Search for ads
-      PUT /api/toggle-published/:adId – Toggle published status (admin)
+      1. POST /api/upload-image – Upload images (using multer)
+      2. DELETE /api/remove-image – Remove image from AWS S3
+      3. POST /api/create-ad – Create a new ad
+      4. GET /api/ad/:slug – Read a single ad
+      5. GET /api/ads-for-sell/:page – List properties for sale (paginated)
+      6. GET /api/ads-for-rent/:page – List properties for rent (paginated)
+      7. PUT /api/update-ad/:slug – Update an ad
+      8. DELETE /api/delete-ad/:slug – Delete an ad
+      9. GET /api/user-ads/:page – Get ads posted by the current user
+      10. PUT /api/update-ad-status/:slug – Update ad status
+      11. POST /api/contact-agent – Contact the agent for an ad
+      12. PUT /api/toggle-wish-list/:adId – Toggle wishlist for an ad
+      13. GET /api/wishlist/:page – Get wishlist ads (paginated)
+      14. POST /api/search-ads – Search for ads
+      15. PUT /api/toggle-published/:adId – Toggle published status (admin)
